@@ -1,0 +1,19 @@
+.hover-image-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.hover-image {
+    transition: transform 0.3s ease-out;
+    transform-origin: center;
+}
+
+.hover-image-container:hover .hover-image {
+    transform: scale(1.2);
+}
+
+
+.hover-image-container:hover .hover-image {
+    transform: scale(1.2) translateZ(0);
+    cursor: pointer;
+}
